@@ -1,0 +1,1127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Activity_Game">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="563dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="70dp"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:layout_marginTop="0dp"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:id="@+id/game_road_back1"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/road">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/ghost_image1"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/ghost1" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/coin_image1"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/coin_svg" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/game_road_back2"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/road">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/ghost_image2"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/ghost1" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/coin_image2"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/coin_svg" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/game_road_back3"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/road">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/ghost_image3"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/ghost1" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/coin_image3"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/coin_svg" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/game_road_back4"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/road">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/ghost_image4"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/ghost2" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/coin_image4"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/coin_svg" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/game_road_back5"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/road">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/ghost_image5"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/ghost1" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/coin_image5"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/coin_svg" />
+
+            </FrameLayout>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginTop="-7.5dp"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:id="@+id/game_road_back6"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/road">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/ghost_image6"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/ghost2" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/coin_image6"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/coin_svg" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/game_road_back7"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/road">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/ghost_image7"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/ghost2" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/coin_image7"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/coin_svg" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/game_road_back8"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/road">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/ghost_image8"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/ghost2" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/coin_image8"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/coin_svg" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/game_road_back9"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/road">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/ghost_image9"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/ghost1" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/coin_image9"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/coin_svg" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/game_road_back10"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/road">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/ghost_image10"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/ghost2" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/coin_image10"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/coin_svg" />
+
+            </FrameLayout>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginTop="-7.5dp"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:id="@+id/game_road_back11"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/road">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/ghost_image11"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/ghost1" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/coin_image11"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/coin_svg" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/game_road_back12"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/road">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/ghost_image12"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/ghost1" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/coin_image12"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/coin_svg" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/game_road_back13"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/road">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/ghost_image13"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/ghost1" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/coin_image13"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/coin_svg" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/game_road_back14"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/road">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/ghost_image14"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/ghost2" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/coin_image14"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/coin_svg" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/game_road_back15"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/road">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/ghost_image15"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/ghost1" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/coin_image15"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/coin_svg" />
+
+            </FrameLayout>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginTop="-7.5dp"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:id="@+id/game_road_back16"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/road">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/ghost_image16"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/ghost2" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/coin_image16"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/coin_svg" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/game_road_back17"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/road">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/ghost_image17"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/ghost2" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/coin_image17"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/coin_svg" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/game_road_back18"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/road">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/ghost_image18"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/ghost2" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/coin_image18"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/coin_svg" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/game_road_back19"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/road">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/ghost_image19"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/ghost1" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/coin_image19"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/coin_svg" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/game_road_back20"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/road">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/ghost_image20"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/ghost2" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/coin_image20"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/coin_svg" />
+
+            </FrameLayout>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginTop="-7.5dp"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:id="@+id/game_road_back21"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/road">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/ghost_image21"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/ghost1" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/coin_image21"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/coin_svg" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/game_road_back22"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/road">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/ghost_image22"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/ghost1" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/coin_image22"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/coin_svg" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/game_road_back23"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/road">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/ghost_image23"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/ghost1" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/coin_image23"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/coin_svg" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/game_road_back24"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/road">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/ghost_image24"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/ghost2" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/coin_image24"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/coin_svg" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/game_road_back25"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/road">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/ghost_image25"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/ghost1" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/coin_image25"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/coin_svg" />
+
+            </FrameLayout>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginTop="-7.5dp"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:id="@+id/game_road_back26"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/road">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/ghost_image26"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/ghost2" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/coin_image26"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/coin_svg" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/game_road_back27"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/road">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/ghost_image27"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/ghost2" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/coin_image27"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/coin_svg" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/game_road_back28"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/road">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/ghost_image28"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/ghost2" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/coin_image28"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/coin_svg" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/game_road_back29"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/road">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/ghost_image29"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/ghost1" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/coin_image29"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/coin_svg" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/game_road_back30"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/road">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/ghost_image30"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/ghost2" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/coin_image30"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/coin_svg" />
+
+            </FrameLayout>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginTop="-7.5dp"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:id="@+id/game_road_back31"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/road">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/ghost_image31"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/ghost1" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/coin_image31"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/coin_svg" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/game_road_back32"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/road">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/ghost_image32"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/ghost1" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/coin_image32"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/coin_svg" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/game_road_back33"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/road">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/ghost_image33"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/ghost1" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/coin_image33"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/coin_svg" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/game_road_back34"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/road">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/ghost_image34"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/ghost2" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/coin_image34"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/coin_svg" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/game_road_back35"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/road">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/ghost_image35"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/ghost1" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/coin_image35"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/coin_svg" />
+
+            </FrameLayout>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginTop="-7.5dp"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:id="@+id/game_road_back36"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/road">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/pacman_image1"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/pacman_svg" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/game_road_back37"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/road">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/pacman_image2"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/pacman_svg" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/game_road_back38"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/road">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/pacman_image3"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/pacman_svg" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/game_road_back39"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/road">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/pacman_image4"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/pacman_svg" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/game_road_back40"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/road">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/pacman_image5"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/pacman_svg" />
+
+            </FrameLayout>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/game_IMG_heart1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/heart_svg" />
+
+        <View
+            android:layout_width="5dp"
+            android:layout_height="wrap_content" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/game_IMG_heart2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/heart_svg" />
+
+        <View
+            android:layout_width="5dp"
+            android:layout_height="wrap_content" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/game_IMG_heart3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/heart_svg" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/game_TEXT_odometer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="0"
+        android:textColor="#000000"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="630dp"
+        android:orientation="horizontal">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/game_BTN_left"
+            style="@style/Widget.Material3.Button.TextButton.Icon"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:icon="@drawable/left"
+            app:iconGravity="textStart"
+            app:iconSize="100dp"
+            app:iconTint="@null" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/game_BTN_right"
+            style="@style/Widget.Material3.Button.TextButton.Icon"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:icon="@drawable/right"
+            app:iconGravity="textStart"
+            app:iconSize="100dp"
+            app:iconTint="@null" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</RelativeLayout>

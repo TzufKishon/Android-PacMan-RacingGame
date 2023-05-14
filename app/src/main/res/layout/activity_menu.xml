@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu_Activity">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/menu_LBL_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pac-Man King"
+        android:textColor="#F8E00B"
+        android:textSize="55sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="70dp"
+            android:alpha="0.9"
+            android:src="@drawable/pacman_svg"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FF000000"
+            android:alpha="0"/>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="180dp"
+            android:orientation="vertical">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/menu_BTN_slowMode"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#00BCD4"
+                android:text="slow mode"
+                android:textColor="#000000"
+                android:textSize="20sp"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/menu_BTN_fastMode"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#00BBD3"
+                android:text="fast mode"
+                android:textColor="#000000"
+                android:textSize="20sp"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/menu_BTN_sensorsMode"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#00BAD2"
+                android:text="sensors mode"
+                android:textColor="#000000"
+                android:textSize="20sp"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/menu_BTN_top10"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="50dp"
+                android:backgroundTint="#009688"
+                android:text="top records"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </RelativeLayout>
+</RelativeLayout>
